@@ -1,0 +1,22 @@
+{
+	"name": "immutablejs-validator",
+	"version": "0.1.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"immutable": "^3.8.2",
+		"is-primitive": "^3.0.0"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-jest": "^23.0.1",
+		"babel-preset-env": "^1.7.0",
+		"jest": "^23.0.1"
+	}
+}
