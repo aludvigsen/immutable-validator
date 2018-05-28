@@ -1,14 +1,15 @@
 {
 	"name": "immutablejs-validator",
 	"version": "0.1.0",
-	"description": "",
+	"description": "Simple tool to deep validate that your immutable-js object is fully immutable",
 	"main": "index.js",
 	"scripts": {
 		"test": "jest --watch"
 	},
 	"keywords": [],
 	"author": "",
-	"license": "ISC",
+	"license": "MIT",
+	"homepage": "https://github.com/aludvigsen/immutable-validator",
 	"dependencies": {
 		"immutable": "^3.8.2",
 		"is-primitive": "^3.0.0"

@@ -2,7 +2,7 @@
 
 > Deep validates an Object/Array/Map/List
 
-Simple tool to validate that your immutable-js object is fully immutable. Deep validates and logs if there are any leafs that are not an instance from immutable-js. Primitive values are ignored.
+Simple tool to validate that your immutable-js object is fully immutable. Deep validates and logs paths if there are any leafs that are not an instance from immutable-js. Primitive values are ignored.
 
 ### What do I use it for?
 
@@ -18,6 +18,7 @@ npm install immutable-validator --save
 ## Usage example
 
 ```js
+import { Map, List } from 'immutable'
 import ImmutableValidator from 'immutable-validator'
 
 const obj = Map({
