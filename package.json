@@ -1,6 +1,6 @@
 {
 	"name": "immutable-validator",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "Simple tool to deep validate that your immutable-js object is fully immutable",
 	"main": "index.js",
 	"scripts": {
