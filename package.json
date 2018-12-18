@@ -11,13 +11,13 @@
 	"license": "MIT",
 	"homepage": "https://github.com/aludvigsen/immutable-validator",
 	"dependencies": {
-		"immutable": "^3.8.2",
-		"is-primitive": "^3.0.0"
+		"immutable": "^4.0.0-rc.12",
+		"is-primitive": "^3.0.1"
 	},
 	"devDependencies": {
-		"babel-core": "^6.26.3",
-		"babel-jest": "^23.0.1",
-		"babel-preset-env": "^1.7.0",
-		"jest": "^23.0.1"
+		"@babel/core": "^7.2.2",
+		"@babel/preset-env": "^7.2.0",
+		"babel-core": "^7.0.0-bridge.0",
+		"jest": "^23.6.0"
 	}
 }
