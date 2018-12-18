@@ -6,8 +6,8 @@ Simple tool to validate that your immutable-js object is fully immutable. Deep v
 
 ### What do I use it for?
 
-* If you got a large nested state and expect everything (non-primitives) to be an instance of immutable-js
-* Validate that your redux store is fully immutable
+- If you got a large nested state and expect everything (non-primitives) to be an instance of immutable-js
+- Validate that your redux store is fully immutable
 
 ## Installation
 
@@ -67,3 +67,8 @@ Object passed as second argument
 | ------------ | ------- | ------------------------------ |
 | logToConsole | true    | Log result to console          |
 | collapsed    | true    | Collapse the result in console |
+
+## Changes
+
+- **0.2.0:** Dependency updates (babel 7, immutable 4)
+- **0.1.0:** First version
